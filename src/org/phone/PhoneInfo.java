@@ -13,12 +13,21 @@ public class PhoneInfo {
 		System.out.println("Phone Camara = 50MP");
 	}
 	
+	private void phoneStorage() {
+		System.out.println("Phone Storage = 128GB");
+	}
 	
+
+	private void phoneModel() {
+		System.out.println("Phone Model = 13Pro");
+	}
 	public static void main(String args[]) {
 		PhoneInfo P=new PhoneInfo();
 		P.phoneName();
 		P.phoneModelNumber();
 		P.phoneCamara();
+		P.phoneStorage();
+		P.phoneModel();
 		
 	}
 	
